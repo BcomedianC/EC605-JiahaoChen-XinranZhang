@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Nov 14 13:31:25 2016
+# Process ID: 2028
+# Log file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux/vivado.log
+# Journal file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux/Lab5_final.xpr
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+set_property -name {xsim.simulate.runtime} -value {10ns} -objects [current_fileset -simset]
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+set_property -name {xsim.simulate.runtime} -value {4ns} -objects [current_fileset -simset]
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+set_property -name {xsim.simulate.runtime} -value {20ns} -objects [current_fileset -simset]
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+set_property -name {xsim.simulate.runtime} -value {30ns} -objects [current_fileset -simset]
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+set_property -name {xsim.simulate.runtime} -value {300ns} -objects [current_fileset -simset]
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim
+launch_simulation
+source Datapath_testbench.tcl
+close_sim

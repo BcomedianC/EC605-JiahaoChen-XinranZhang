@@ -1,0 +1,7 @@
+Running: xsim.dir/eightbitcounter_testbench_behav/xsimk -simmode gui -wdb eightbitcounter_testbench_behav.wdb -simrunnum 0 -socket 41543
+Design successfully loaded
+Design Loading Memory Usage: 188612 KB (Peak: 188632 KB)
+Design Loading CPU Usage: 50 ms
+Simulation completed
+Simulation Memory Usage: 264396 KB (Peak: 329928 KB)
+Simulation CPU Usage: 50 ms

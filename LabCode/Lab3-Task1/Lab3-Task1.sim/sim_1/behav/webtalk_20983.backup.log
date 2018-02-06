@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:48:31 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Oct  2 16:09:12 2016
+# Process ID: 20587
+# Log file: /ad/eng/users/t/o/tobychen/Desktop/LAB ASSIGNMENT/Lab3-Task1/Lab3-Task1.sim/sim_1/behav/webtalk.log
+# Journal file: /ad/eng/users/t/o/tobychen/Desktop/LAB ASSIGNMENT/Lab3-Task1/Lab3-Task1.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /ad/eng/users/t/o/tobychen/Desktop/LAB -notrace
+couldn't read file "/ad/eng/users/t/o/tobychen/Desktop/LAB": illegal operation on a directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Oct  2 16:09:12 2016...

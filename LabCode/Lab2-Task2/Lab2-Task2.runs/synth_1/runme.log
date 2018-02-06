@@ -1,0 +1,341 @@
+
+*** Running vivado
+    with args -log eightbitfulladder.vds -m64 -mode batch -messageDb vivado.pb -source eightbitfulladder.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 16:48:31 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source eightbitfulladder.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.cache/wt [current_project]
+# set_property parent.project_path /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib {
+#   /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/imports/Lab2-Task2/1bitfulladder.v
+#   /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v
+# }
+# catch { write_hwdef -file eightbitfulladder.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top eightbitfulladder -part xc7a35tcpg236-1
+Command: synth_design -top eightbitfulladder -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 968.297 ; gain = 142.734 ; free physical = 1882 ; free virtual = 16346
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'eightbitfulladder' [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:23]
+INFO: [Synth 8-638] synthesizing module 'singlebitfulladder' [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/imports/Lab2-Task2/1bitfulladder.v:4]
+INFO: [Synth 8-256] done synthesizing module 'singlebitfulladder' (1#1) [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/imports/Lab2-Task2/1bitfulladder.v:4]
+WARNING: [Synth 8-3848] Net Y in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:30]
+WARNING: [Synth 8-3848] Net A7 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:40]
+WARNING: [Synth 8-3848] Net B7 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:40]
+WARNING: [Synth 8-3848] Net A6 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:39]
+WARNING: [Synth 8-3848] Net B6 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:39]
+WARNING: [Synth 8-3848] Net A5 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:38]
+WARNING: [Synth 8-3848] Net B5 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:38]
+WARNING: [Synth 8-3848] Net A4 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:37]
+WARNING: [Synth 8-3848] Net B4 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:37]
+WARNING: [Synth 8-3848] Net A3 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:36]
+WARNING: [Synth 8-3848] Net B3 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:36]
+WARNING: [Synth 8-3848] Net A2 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:35]
+WARNING: [Synth 8-3848] Net B2 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:35]
+WARNING: [Synth 8-3848] Net A1 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:34]
+WARNING: [Synth 8-3848] Net B1 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:34]
+WARNING: [Synth 8-3848] Net A0 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:33]
+WARNING: [Synth 8-3848] Net B0 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:33]
+INFO: [Synth 8-256] done synthesizing module 'eightbitfulladder' (2#1) [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:23]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[7]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[6]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[5]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[4]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[3]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[2]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[1]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[0]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[7]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[6]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[5]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[4]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[3]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[2]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[1]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[0]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[7]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[6]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[5]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[4]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[3]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[2]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[1]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1004.547 ; gain = 178.984 ; free physical = 1842 ; free virtual = 16307
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1004.547 ; gain = 178.984 ; free physical = 1842 ; free virtual = 16307
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1014.543 ; gain = 188.980 ; free physical = 1842 ; free virtual = 16307
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3848] Net Y in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:30]
+WARNING: [Synth 8-3848] Net A7 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:40]
+WARNING: [Synth 8-3848] Net B7 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:40]
+WARNING: [Synth 8-3848] Net A6 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:39]
+WARNING: [Synth 8-3848] Net B6 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:39]
+WARNING: [Synth 8-3848] Net A5 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:38]
+WARNING: [Synth 8-3848] Net B5 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:38]
+WARNING: [Synth 8-3848] Net A4 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:37]
+WARNING: [Synth 8-3848] Net B4 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:37]
+WARNING: [Synth 8-3848] Net A3 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:36]
+WARNING: [Synth 8-3848] Net B3 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:36]
+WARNING: [Synth 8-3848] Net A2 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:35]
+WARNING: [Synth 8-3848] Net B2 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:35]
+WARNING: [Synth 8-3848] Net A1 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:34]
+WARNING: [Synth 8-3848] Net B1 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:34]
+WARNING: [Synth 8-3848] Net A0 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:33]
+WARNING: [Synth 8-3848] Net B0 in module/entity eightbitfulladder does not have driver. [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v:33]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1022.551 ; gain = 196.988 ; free physical = 1834 ; free virtual = 16299
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module eightbitfulladder 
+Detailed RTL Component Info : 
+Module singlebitfulladder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Loading clock regions from /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/artix7/xc7a35t/ClockRegion.xml
+Loading clock buffers from /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/artix7/xc7a35t/ClockBuffers.xml
+Loading clock placement rules from /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/artix7/xc7a35t/cpg236/Package.xml
+Loading io standards from /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/data/parts/xilinx/artix7/ConfigModes.xml
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[7]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[6]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[5]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[4]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[3]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[2]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[1]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port Y[0]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[7]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[6]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[5]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[4]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[3]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[2]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[1]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port A[0]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[7]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[6]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[5]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[4]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[3]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[2]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[1]
+WARNING: [Synth 8-3331] design eightbitfulladder has unconnected port B[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1114.551 ; gain = 288.988 ; free physical = 1748 ; free virtual = 16212
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1122.559 ; gain = 296.996 ; free physical = 1739 ; free virtual = 16203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1122.559 ; gain = 296.996 ; free physical = 1739 ; free virtual = 16203
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1122.559 ; gain = 296.996 ; free physical = 1739 ; free virtual = 16203
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1122.559 ; gain = 296.996 ; free physical = 1739 ; free virtual = 16203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |OBUF  |     1|
+|2     |OBUFT |     8|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     9|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1122.559 ; gain = 296.996 ; free physical = 1739 ; free virtual = 16203
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 82 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1122.559 ; gain = 206.254 ; free physical = 1739 ; free virtual = 16203
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1122.559 ; gain = 296.996 ; free physical = 1739 ; free virtual = 16203
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 82 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1186.586 ; gain = 270.281 ; free physical = 1670 ; free virtual = 16134
+# write_checkpoint -noxdef eightbitfulladder.dcp
+# catch { report_utilization -file eightbitfulladder_utilization_synth.rpt -pb eightbitfulladder_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00.31 ; elapsed = 00:00:00.47 . Memory (MB): peak = 1206.574 ; gain = 0.000 ; free physical = 1669 ; free virtual = 16133
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 22 21:12:34 2016...

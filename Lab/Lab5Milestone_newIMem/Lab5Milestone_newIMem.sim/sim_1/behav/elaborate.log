@@ -1,0 +1,7 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/bin/unwrapped/lnx64.o/xelab -wto a51d2c6c855644549e29a87f63bd1e90 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Program_Counter_Testbench_behav xil_defaultlib.Program_Counter_Testbench xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-529] concurrent assignment to a non-net PC is not permitted [/ad/eng/users/t/o/tobychen/Desktop/Lab5Milestone_newIMem/Lab5Milestone_newIMem.srcs/sim_1/new/Program_Counter_Testbench.v:13]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,9 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/imports/Lab2-Task2/1bitfulladder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module singlebitfulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sources_1/new/eightbitfulladder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightbitfulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.srcs/sim_1/imports/Downloads/Tutorial_TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Structural_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

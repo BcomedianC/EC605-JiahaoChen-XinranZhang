@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Nov 12 21:38:51 2016
+# Process ID: 1784
+# Log file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final/vivado.log
+# Journal file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final/Lab5_final.xpr
+INFO: [Project 1-313] Project file moved from '/ad/eng/users/t/o/tobychen/Desktop/Lab5_final' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 12 22:08:41 2016...

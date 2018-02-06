@@ -1,0 +1,14 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/bin/unwrapped/lnx64.o/xelab -wto af34082910a941c885e03f2910d4b61e --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot eightbitcounter_testbench_behav xil_defaultlib.eightbitcounter_testbench xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.eightbitcounter
+Compiling module xil_defaultlib.eightbitcounter_testbench
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot eightbitcounter_testbench_behav

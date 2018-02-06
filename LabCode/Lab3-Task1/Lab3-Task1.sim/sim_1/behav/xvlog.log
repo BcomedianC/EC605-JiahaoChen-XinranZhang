@@ -1,0 +1,7 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/t/o/tobychen/Desktop/LAB ASSIGNMENT/Lab3-Task1/Lab3-Task1.srcs/sources_1/new/eightbitcounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightbitcounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/t/o/tobychen/Desktop/LAB ASSIGNMENT/Lab3-Task1/Lab3-Task1.srcs/sim_1/new/eightbitcounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightbitcounter_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/ad/eng/users/t/o/tobychen/Desktop/LAB ASSIGNMENT/Lab3-Task1/Lab3-Task1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

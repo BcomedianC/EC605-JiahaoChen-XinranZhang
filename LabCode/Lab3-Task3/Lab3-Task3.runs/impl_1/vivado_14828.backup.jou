@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Oct 07 11:24:31 2016
+# Process ID: 14728
+# Log file: C:/Users/Toby/Documents/toby和echix的文件/toby的文件/！！！BU/EC605/Vivado-FPGA/Lab3-Task3/Lab3-Task3.runs/impl_1/wraparoundLEDS.vdi
+# Journal file: C:/Users/Toby/Documents/toby和echix的文件/toby的文件/！！！BU/EC605/Vivado-FPGA/Lab3-Task3/Lab3-Task3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source wraparoundLEDS.tcl -notrace

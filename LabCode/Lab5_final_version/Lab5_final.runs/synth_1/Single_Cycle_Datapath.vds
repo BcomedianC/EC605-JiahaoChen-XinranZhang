@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:48:31 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Nov 14 22:50:34 2016
+# Process ID: 20370
+# Log file: /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.runs/synth_1/Single_Cycle_Datapath.vds
+# Journal file: /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Single_Cycle_Datapath.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7a35tcpg236-1
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.cache/wt [current_project]
+# set_property parent.project_path /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# read_verilog -library xil_defaultlib {
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/movk.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/datamux.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/alumux.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/Reg2mux.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/imports/Downloads/Register_File.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/new/PC.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/imports/Downloads/IMem.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/new/Data_Memory.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/ControlUnit.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/imports/new/ALU.v
+#   /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/Single_Cycle_Datapath.v
+# }
+# catch { write_hwdef -file Single_Cycle_Datapath.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top Single_Cycle_Datapath -part xc7a35tcpg236-1
+Command: synth_design -top Single_Cycle_Datapath -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 968.301 ; gain = 142.734 ; free physical = 12935 ; free virtual = 24204
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Single_Cycle_Datapath' [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/Single_Cycle_Datapath.v:1]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/new/PC.v:1]
+	Parameter BITSIZE bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/new/PC.v:1]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Memory' [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/imports/Downloads/IMem.v:2]
+	Parameter BITSIZE bound to: 32 - type: integer 
+	Parameter REGSIZE bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Memory' (2#1) [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/imports/sources_1/imports/Downloads/IMem.v:2]
+WARNING: [Synth 8-689] width (64) of port connection 'Address' does not match port width (32) of module 'Instruction_Memory' [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/Single_Cycle_Datapath.v:16]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/ControlUnit.v:1]
+ERROR: [Synth 8-434] mixed level sensitive and edge triggered event controls are not supported for synthesis [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/ControlUnit.v:8]
+ERROR: [Synth 8-285] failed synthesizing module 'ControlUnit' [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/ControlUnit.v:1]
+ERROR: [Synth 8-285] failed synthesizing module 'Single_Cycle_Datapath' [/ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.srcs/sources_1/new/Single_Cycle_Datapath.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1004.535 ; gain = 178.969 ; free physical = 12894 ; free virtual = 24167
+---------------------------------------------------------------------------------
+synthesize failed
+    while executing
+"rt::run_synthesis -module $rt::top"
+    invoked from within
+"if {$rt::useElabCache == false} {
+      rt::run_synthesis -module $rt::top
+    }"
+    ("uplevel" body line 49)
+    invoked from within
+"uplevel #0 {
+    set ::env(BUILTIN_SYNTH) true
+    source $::env(HRT_TCL_PATH)/rtSynthPrep.tcl
+    rt::HARTNDb_resetJobStats
+    rt::HARTNDb_startJobS..."
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+
+    while executing
+"source -notrace ./.Xil/Vivado-20370-vlsi12/realtime/Single_Cycle_Datapath.tcl"
+    invoked from within
+"synth_design -top Single_Cycle_Datapath -part xc7a35tcpg236-1"
+    (file "Single_Cycle_Datapath.tcl" line 31)
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 14 22:50:45 2016...

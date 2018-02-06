@@ -1,0 +1,19 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/bin/unwrapped/lnx64.o/xelab -wto e9ea076834574fbaacfbe02f36ca014b --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Structural_testbench_behav xil_defaultlib.Structural_testbench xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port CI [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task3/Lab2-Task3.srcs/sources_1/new/eightbitcarryselect.v:16]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port CI [/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task3/Lab2-Task3.srcs/sources_1/new/eightbitcarryselect.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebitfulladder
+Compiling module xil_defaultlib.fourbitfulladder
+Compiling module xil_defaultlib.Gate_Level_MUX
+Compiling module xil_defaultlib.eightbitcarryselect
+Compiling module xil_defaultlib.Structural_testbench
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Structural_testbench_behav

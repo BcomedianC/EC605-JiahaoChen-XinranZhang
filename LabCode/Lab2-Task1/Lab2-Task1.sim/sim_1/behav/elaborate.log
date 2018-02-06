@@ -1,0 +1,18 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: /ad/eng/support/software/linux/all/x86_64/Xilinx/Vivado/2014.4/bin/unwrapped/lnx64.o/xelab -wto eacac80cc89343619561dca7fb3b0925 --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Full_Adder_Test_behav xil_defaultlib.Full_Adder_Test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task1/Lab2-Task1.srcs/sources_1/new/1bitfulladder.v" Line 4. Module singlebitfulladder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task1/Lab2-Task1.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task1/Lab2-Task1.srcs/sources_1/new/1bitfulladder.v" Line 4. Module singlebitfulladder has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/ad/eng/users/t/o/tobychen/Desktop/Lab2-Task1/Lab2-Task1.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.singlebitfulladder
+Compiling module xil_defaultlib.Full_Adder_Test
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot Full_Adder_Test_behav

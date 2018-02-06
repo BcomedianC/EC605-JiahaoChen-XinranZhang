@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Nov 13 22:15:01 2016
+# Process ID: 5392
+# Log file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux/vivado.log
+# Journal file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux/Lab5_final.xpr
+file mkdir C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux/Lab5_final.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux/Lab5_final.srcs/sim_1/new/Datapath_testbench.v w ]
+add_files -fileset sim_1 C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_mux/Lab5_final.srcs/sim_1/new/Datapath_testbench.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source Datapath_testbench.tcl
+add_wave {{/Datapath_testbench/uut/MovK}} 
+add_wave {{/Datapath_testbench/uut/rst}} 
+add_wave {{/Datapath_testbench/uut/instruction}} 
+add_wave {{/Datapath_testbench/uut/Writedata}} 
+close_sim

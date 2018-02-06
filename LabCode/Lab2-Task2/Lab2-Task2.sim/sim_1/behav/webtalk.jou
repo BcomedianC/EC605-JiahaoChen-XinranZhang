@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:48:31 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Sep 28 13:04:38 2016
+# Process ID: 18511
+# Log file: /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.sim/sim_1/behav/webtalk.log
+# Journal file: /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task2/Lab2-Task2.sim/sim_1/behav/xsim.dir/Structural_testbench_behav/webtalk/xsim_webtalk.tcl -notrace

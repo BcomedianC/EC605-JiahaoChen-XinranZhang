@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:48:31 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Nov 14 22:50:34 2016
+# Process ID: 20370
+# Log file: /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.runs/synth_1/Single_Cycle_Datapath.vds
+# Journal file: /ad/eng/users/t/o/tobychen/Desktop/LABASSIGNMENT/Lab5_final_mux/Lab5_final.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Single_Cycle_Datapath.tcl

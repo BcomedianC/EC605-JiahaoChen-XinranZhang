@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1475854279">
+  <File Type="PWROPT-DCP" Name="wraparoundLEDS_pwropt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PLACE-DCP" Name="wraparoundLEDS_placed.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DRC" Name="wraparoundLEDS_drc_pwropted.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="wraparoundLEDS_timing_summary_routed.rpt"/>
+  <File Type="PA-TCL" Name="wraparoundLEDS.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DCP" Name="wraparoundLEDS_opt.dcp"/>
+  <File Type="OPT-DRC" Name="wraparoundLEDS_drc_opted.rpt"/>
+  <File Type="PLACE-IO" Name="wraparoundLEDS_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="wraparoundLEDS_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="wraparoundLEDS_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="wraparoundLEDS_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="wraparoundLEDS_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="wraparoundLEDS_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="wraparoundLEDS_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="wraparoundLEDS_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="wraparoundLEDS_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="wraparoundLEDS_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="wraparoundLEDS_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="wraparoundLEDS_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="wraparoundLEDS_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="wraparoundLEDS_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="wraparoundLEDS_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="wraparoundLEDS_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="wraparoundLEDS_route_status.pb"/>
+  <File Type="ROUTE-TIMING-PB" Name="wraparoundLEDS_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="wraparoundLEDS_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="wraparoundLEDS_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="wraparoundLEDS_postroute_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="wraparoundLEDS.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="wraparoundLEDS_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="wraparoundLEDS_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="wraparoundLEDS_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="wraparoundLEDS.bit"/>
+  <File Type="BG-BIN" Name="wraparoundLEDS.bin"/>
+  <File Type="BITSTR-MSK" Name="wraparoundLEDS.msk"/>
+  <File Type="BITSTR-RBT" Name="wraparoundLEDS.rbt"/>
+  <File Type="BITSTR-NKY" Name="wraparoundLEDS.nky"/>
+  <File Type="BITSTR-BMM" Name="wraparoundLEDS_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="wraparoundLEDS.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="wraparoundLEDS.sysdef"/>
+  <File Type="BG-BGN" Name="wraparoundLEDS.bgn"/>
+  <File Type="BG-DRC" Name="wraparoundLEDS.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/wraparoundLEDS.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="wraparoundLEDS"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/wraparoundLEDSconstrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

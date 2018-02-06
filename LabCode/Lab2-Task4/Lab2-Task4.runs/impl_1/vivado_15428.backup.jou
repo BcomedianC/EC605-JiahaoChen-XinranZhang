@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:48:31 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Sep 28 10:02:32 2016
+# Process ID: 14906
+# Log file: /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task4/Lab2-Task4.runs/impl_1/Top_module.vdi
+# Journal file: /ad/eng/users/t/o/tobychen/Desktop/Lab2-Task4/Lab2-Task4.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Top_module.tcl -notrace

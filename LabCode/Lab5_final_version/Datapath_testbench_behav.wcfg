@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Datapath_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Datapath_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="48" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/PCtest">
+      <obj_property name="ElementShortName">PCtest[63:0]</obj_property>
+      <obj_property name="ObjectShortName">PCtest[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/RFWDtest">
+      <obj_property name="ElementShortName">RFWDtest[63:0]</obj_property>
+      <obj_property name="ObjectShortName">RFWDtest[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/RFRD1test">
+      <obj_property name="ElementShortName">RFRD1test[63:0]</obj_property>
+      <obj_property name="ObjectShortName">RFRD1test[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/RFRD2test">
+      <obj_property name="ElementShortName">RFRD2test[63:0]</obj_property>
+      <obj_property name="ObjectShortName">RFRD2test[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/ALU2test">
+      <obj_property name="ElementShortName">ALU2test[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU2test[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/ALUoutputtest">
+      <obj_property name="ElementShortName">ALUoutputtest[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUoutputtest[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/Readdatatest">
+      <obj_property name="ElementShortName">Readdatatest[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Readdatatest[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/MemMovtest">
+      <obj_property name="ElementShortName">MemMovtest[63:0]</obj_property>
+      <obj_property name="ObjectShortName">MemMovtest[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/instructiontest">
+      <obj_property name="ElementShortName">instructiontest[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instructiontest[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/RReg1test">
+      <obj_property name="ElementShortName">RReg1test[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RReg1test[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/RReg2test">
+      <obj_property name="ElementShortName">RReg2test[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RReg2test[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/WRegtest">
+      <obj_property name="ElementShortName">WRegtest[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WRegtest[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/ALUOptest">
+      <obj_property name="ElementShortName">ALUOptest[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOptest[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/Reg2Loctest">
+      <obj_property name="ElementShortName">Reg2Loctest</obj_property>
+      <obj_property name="ObjectShortName">Reg2Loctest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/Uncondbranchtest">
+      <obj_property name="ElementShortName">Uncondbranchtest</obj_property>
+      <obj_property name="ObjectShortName">Uncondbranchtest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/Branchtest">
+      <obj_property name="ElementShortName">Branchtest</obj_property>
+      <obj_property name="ObjectShortName">Branchtest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/Zerotest">
+      <obj_property name="ElementShortName">Zerotest</obj_property>
+      <obj_property name="ObjectShortName">Zerotest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/MemReadtest">
+      <obj_property name="ElementShortName">MemReadtest</obj_property>
+      <obj_property name="ObjectShortName">MemReadtest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/MemtoRegtest">
+      <obj_property name="ElementShortName">MemtoRegtest</obj_property>
+      <obj_property name="ObjectShortName">MemtoRegtest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/MemWritetest">
+      <obj_property name="ElementShortName">MemWritetest</obj_property>
+      <obj_property name="ObjectShortName">MemWritetest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/ALUSrctest">
+      <obj_property name="ElementShortName">ALUSrctest</obj_property>
+      <obj_property name="ObjectShortName">ALUSrctest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/RegWritetest">
+      <obj_property name="ElementShortName">RegWritetest</obj_property>
+      <obj_property name="ObjectShortName">RegWritetest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Datapath_testbench/MovKtest">
+      <obj_property name="ElementShortName">MovKtest</obj_property>
+      <obj_property name="ObjectShortName">MovKtest</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[11]">
+      <obj_property name="ElementShortName">[11][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[11][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[10]">
+      <obj_property name="ElementShortName">[10][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[10][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[9]">
+      <obj_property name="ElementShortName">[9][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[9][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[8]">
+      <obj_property name="ElementShortName">[8][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[8][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[7]">
+      <obj_property name="ElementShortName">[7][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[7][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[6]">
+      <obj_property name="ElementShortName">[6][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[6][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[5]">
+      <obj_property name="ElementShortName">[5][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[5][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[4]">
+      <obj_property name="ElementShortName">[4][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[4][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[3]">
+      <obj_property name="ElementShortName">[3][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[3][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[2]">
+      <obj_property name="ElementShortName">[2][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[2][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[1]">
+      <obj_property name="ElementShortName">[1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[1][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/register_file/reg_file[0]">
+      <obj_property name="ElementShortName">[0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[10]">
+      <obj_property name="ElementShortName">[10][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[10][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[9]">
+      <obj_property name="ElementShortName">[9][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[9][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[8]">
+      <obj_property name="ElementShortName">[8][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[8][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[7]">
+      <obj_property name="ElementShortName">[7][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[7][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[6]">
+      <obj_property name="ElementShortName">[6][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[6][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[5]">
+      <obj_property name="ElementShortName">[5][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[5][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[4]">
+      <obj_property name="ElementShortName">[4][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[4][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[3]">
+      <obj_property name="ElementShortName">[3][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[3][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[2]">
+      <obj_property name="ElementShortName">[2][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[2][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[1]">
+      <obj_property name="ElementShortName">[1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[1][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Datapath_testbench/uut/data_memory/data_memory[0]">
+      <obj_property name="ElementShortName">[0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_memory[0][63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

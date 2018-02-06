@@ -1,0 +1,43 @@
+`timescale 1ns / 1ps
+
+module Structural_testbench;
+    
+    reg [7:0] A; 
+    reg [7:0] B;
+    reg CI;
+    wire CO;
+    wire [7:0] Y;
+
+	    
+    eightbitcarryselect uut( A, B, CI, CO, Y);
+ 
+    initial
+    begin
+
+     A = 8'b00000000;
+     B = 8'b00000000;
+     CI = 1'b0;
+   
+     
+     #50;
+     A = 8'b01010101;
+     B = 8'b10101010;
+     CI = 1'b0;
+
+     #50;
+     A = 8'b01010101;
+     B = 8'b11101010;
+     CI = 1'b0;    
+     
+     #50;
+     A = 8'b00001010;
+     B = 8'b11010101;
+     CI = 1'b1;
+    
+     #50;
+        
+     $finish;
+        
+    end
+endmodule
+

@@ -1,0 +1,251 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+Process ID: 8956
+
+Current time: 	11/13/16 12:43:25 PM
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win64/jre
+
+User name: 	Toby
+User directory: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_tra
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/Toby/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/Toby/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	192 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 443 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_tra/Lab5_final.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 31 MB (+30274kb) [00:00:05]
+// [Engine Memory]: 382 MB (+249510kb) [00:00:05]
+// [GUI Memory]: 32 MB (+812kb) [00:00:05]
+// [Engine Memory]: 394 MB (+11730kb) [00:00:05]
+// [GUI Memory]: 41 MB (+8995kb) [00:00:05]
+// [Engine Memory]: 418 MB (+25460kb) [00:00:05]
+// [GUI Memory]: 45 MB (+4624kb) [00:00:06]
+// [Engine Memory]: 443 MB (+26374kb) [00:00:06]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 443 MB (+434kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 444 MB (+1028kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 447 MB (+2482kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 447 MB (+45kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 448 MB (+1269kb) [00:00:07]
+// [GUI Memory]: 45 MB (+102kb) [00:00:07]
+// [GUI Memory]: 45 MB (+385kb) [00:00:07]
+// [GUI Memory]: 46 MB (+794kb) [00:00:07]
+// [GUI Memory]: 47 MB (+775kb) [00:00:07]
+// [GUI Memory]: 47 MB (+408kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 48 MB (+1155kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 49 MB (+408kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 50 MB (+794kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+1179kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+525kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 52 MB (+794kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 53 MB (+794kb) [00:00:07]
+// [GUI Memory]: 53 MB (+770kb) [00:00:07]
+// [GUI Memory]: 54 MB (+674kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 451 MB (+2760kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 451 MB (+196kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 453 MB (+2301kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 456 MB (+3346kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 458 MB (+1597kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Lab5_final; location: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_tra; part: xc7a35tcpg236-1
+// TclEventType: DG_UPDATE_GRAPH
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 38 MB. Current time: 11/13/16 12:43:27 PM
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v)]", 1); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v)]", 1, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v)]", 1, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+// [Engine Memory]: 460 MB (+1818kb) [00:00:11]
+selectCodeEditor("Single_Cycle_Datapath.v", 127, 224); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 56 MB (+2057kb) [00:00:14]
+// [Engine Memory]: 460 MB (+102kb) [00:00:14]
+// [GUI Memory]: 59 MB (+3428kb) [00:00:19]
+selectCodeEditor("Single_Cycle_Datapath.v", 39, 180); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Single_Cycle_Datapath.v", 1210, 175); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Single_Cycle_Datapath.v", 12, 99); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 48, 84); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v)]", 1); // u:k (I:JPanel, ch:JFrame)
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), program_counter - ProgramCounter (PC.v)]", 2, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), instruction_memory - Instruction_Memory (IMem.v)]", 3, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), register_file - Register_File (Register_File.v)]", 5, false); // u:k (I:JPanel, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 82, 323); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 64 MB (+4809kb) [00:01:52]
+selectCodeEditor("Single_Cycle_Datapath.v", 190, 317); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 64 MB (+582kb) [00:01:57]
+// [GUI Memory]: 65 MB (+1037kb) [00:02:02]
+// Elapsed time: 51 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), instruction_memory - Instruction_Memory (IMem.v)]", 3, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), instruction_memory - Instruction_Memory (IMem.v)]", 3, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// [GUI Memory]: 69 MB (+4135kb) [00:02:48]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), program_counter - ProgramCounter (PC.v)]", 2, false); // u:k (I:JPanel, ch:JFrame)
+// [GUI Memory]: 70 MB (+281kb) [00:02:50]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), program_counter - ProgramCounter (PC.v)]", 2, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), program_counter - ProgramCounter (PC.v)]", 2, false); // u:k (I:JPanel, ch:JFrame)
+// Elapsed time: 54 seconds
+selectCodeEditor("PC.v", 145, 177); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 70 MB (+188kb) [00:03:54]
+// [GUI Memory]: 71 MB (+777kb) [00:03:59]
+// [GUI Memory]: 71 MB (+129kb) [00:04:04]
+// [GUI Memory]: 71 MB (+755kb) [00:04:09]
+// [GUI Memory]: 73 MB (+1602kb) [00:04:12]
+// [GUI Memory]: 74 MB (+837kb) [00:04:15]
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), instruction_memory - Instruction_Memory (IMem.v)]", 3, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), instruction_memory - Instruction_Memory (IMem.v)]", 3, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), register_file - Register_File (Register_File.v)]", 5, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), control_unit - ControlUnit (ControlUnit.v)]", 4, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), control_unit - ControlUnit (ControlUnit.v)]", 4, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("ControlUnit.v", 75, 107); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), register_file - Register_File (Register_File.v)]", 5, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), register_file - Register_File (Register_File.v)]", 5, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), alu_unit - ALU (ALU.v)]", 6, false); // u:k (I:JPanel, ch:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v), alu_unit - ALU (ALU.v)]", 6, false, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v)]", 1, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v)]", 1, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+// [GUI Memory]: 76 MB (+2504kb) [00:05:47]
+selectCodeEditor("Single_Cycle_Datapath.v", 164, 303); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 134, 320); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 118, 330); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 71 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Single_Cycle_Datapath (Single_Cycle_Datapath.v)]", 1); // u:k (I:JPanel, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 202, 284); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 78 MB (+2031kb) [00:07:11]
+// Elapsed time: 96 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IMem.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Single_Cycle_Datapath.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 158 seconds
+selectCodeEditor("Single_Cycle_Datapath.v", 367, 317); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 95, 338); // bi:J (JPanel:JComponent, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IMem.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Register_File.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IMem.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PC.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ControlUnit.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PC.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [GUI Memory]: 82 MB (+3597kb) [00:12:32]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IMem.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// [GUI Memory]: 82 MB (+602kb) [00:13:55]
+// [GUI Memory]: 83 MB (+411kb) [00:19:50]
+// [GUI Memory]: 83 MB (+967kb) [00:19:55]
+// [GUI Memory]: 83 MB (+47kb) [00:20:00]
+// [GUI Memory]: 84 MB (+432kb) [00:25:55]
+// [GUI Memory]: 84 MB (+55kb) [00:26:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 460 MB. GUI used memory: 37 MB. Current time: 11/13/16 1:13:27 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 460 MB. GUI used memory: 35 MB. Current time: 11/13/16 1:43:27 PM
+// Elapsed time: 3216 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Single_Cycle_Datapath.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, ch:JFrame)
+// Elapsed time: 72 seconds
+selectCodeEditor("Single_Cycle_Datapath.v", 40, 150); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 255, 168); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 192, 166); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 214, 178); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 269, 187); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 248, 183); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 284, 177); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 152, 201); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 231, 204); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 813, 203); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 239, 207); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 231, 202); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 187, 210); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 168, 221); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 284, 215); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 411, 213); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 315, 211); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 28, 232); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 344, 233); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 2, 259); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 410, 255); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 808, 202); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 546, 236); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 329, 274); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 516, 291); // bi:J (JPanel:JComponent, ch:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("Single_Cycle_Datapath.v", 5, 253); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 330, 364); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 322, 369); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 73, 268); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 5, 275); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 154, 428); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 279, 523); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 1, 104); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 324, 194); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 323, 207); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 195, 124); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 313, 205); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 466, 244); // bi:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor("Single_Cycle_Datapath.v", 338, 298); // bi:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 86 MB (+1924kb) [01:10:02]
+// Elapsed time: 84 seconds
+closeMainWindow("Lab5_final - [C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_tra/Lab5_final.xpr] - Vivado 2014.4"); // ch:JFrame
+// aR:ad (ch:JFrame): Save Project: addNotify

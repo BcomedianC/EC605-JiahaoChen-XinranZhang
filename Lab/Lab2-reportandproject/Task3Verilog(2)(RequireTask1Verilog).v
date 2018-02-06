@@ -1,0 +1,45 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 09/22/2016 09:33:47 PM
+// Design Name: 
+// Module Name: eightbitcarryselect
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+module eightbitcarryselect( A, B, CI, CO, Y);
+        
+        input [7:0] A;
+        input [7:0] B;
+        input CI;
+
+        wire w1,w2,w3,w4;
+        wire [3:0] q, a;
+        
+        output CO;    
+        output [7:0] Y;
+        
+        fourbitfulladder uut1(A[3:0],B[3:0], CI, w1, Y[3:0]);
+        fourbitfulladder uut2(A[7:4],B[7:4], 0,w2,q[3:0]);
+        fourbitfulladder uut3(A[7:4],B[7:4], 1,w4,a[3:0]);
+        Gate_Level_MUX uut4(q[3], a[3], w1, Y[7]);
+        Gate_Level_MUX uut5(q[2], a[2], w1, Y[6]);
+        Gate_Level_MUX uut6(q[1], a[1], w1, Y[5]);
+        Gate_Level_MUX uut7(q[0], a[0], w1, Y[4]);
+        
+        or G1 (w3,w1,w2);
+        and G2 (CO,w3,w4);
+        
+endmodule

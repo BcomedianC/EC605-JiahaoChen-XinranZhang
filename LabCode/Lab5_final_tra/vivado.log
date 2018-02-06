@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Nov 13 12:43:14 2016
+# Process ID: 8956
+# Log file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_tra/vivado.log
+# Journal file: C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_tra\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Toby/Documents/BU/EC605/Vivado-FPGA/Lab5_final_tra/Lab5_final.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+exit
